@@ -18,7 +18,7 @@
 
 ### [DataVault](https://github.com/Roman197619/datavault)
 **Инфраструктурный шаблон DWH.** Реализация современной архитектуры хранилища данных.
-* **Стек:** Airflow, dbt, PostgreSQL, Docker.
+* **Стек:** Airflow, dbt, Snowflake, Docker.
 * **Ключевая особенность:** Демонстрация методологии **Data Vault 2.0** и **медальной архитектуры** (Bronze -> Silver -> Gold). Настроены автоматические тесты качества данных (DQ) и CI/CD пайплайны.
 
 ### [Airflow + MongoDB Pipeline](https://github.com/Roman197619/airflow_mongo)

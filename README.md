@@ -4,7 +4,7 @@
 
 ## 🛠 Технологический стек
 
-* **Languages:** Python (Asyncio, Multiprocessing), SQL (Advanced), Bash.
+* **Languages:** Python (Asyncio, Multiprocessing), SQL (Advanced)
 * **Data Processing:** Apache Spark (Optimization, Skew handling), Pandas, NumPy.
 * **Orchestration:** Apache Airflow (Dynamic DAGs, Datasets, Custom Operators).
 * **Databases & Storage:** PostgreSQL, MongoDB, ClickHouse, Snowflake, Delta Lake.

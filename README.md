@@ -4,12 +4,12 @@
 
 ## 🛠 Технологический стек
 
-* **Languages:** Python (Asyncio, Multiprocessing), SQL (Advanced)
-* **Data Processing:** Apache Spark (Optimization, Skew handling), Pandas, NumPy.
-* **Orchestration:** Apache Airflow (Dynamic DAGs, Datasets, Custom Operators).
-* **Databases & Storage:** PostgreSQL, MongoDB, ClickHouse, Snowflake, Delta Lake.
+* **Languages:** Python, SQ
+* **Data Processing:**  Pandas, NumPy, Apache Spark.
+* **Orchestration:** Apache Airflow.
+* **Databases & Storage:** PostgreSQL, MongoDB, ClickHouse, Snowflake.
 * **Data Modeling:** Data Vault 2.0, Star/Snowflake Schema, Medallion Architecture.
-* **Tools:** dbt (Core/Cloud), Docker & Compose, Kafka (Schema Registry, Idempotency).
+* **Tools:** dbt (Core/Cloud), Docker & Compose.
 * **DevOps:** CI/CD, Git, Pre-commit hooks, SQLFluff.
 
 ---
@@ -29,7 +29,7 @@
 
 ### [BOM Analysis (Python & SQL)](https://github.com/Roman197619/numpy_pandas)
 **Алгоритмическая задача: Разузлование спецификаций.**
-Решение классической промышленной задачи Bill of Materials (BOM).
+Решение классической промышленной задачи Bill of Materials (BOM) j о развёртки иерархии.
 * **Стек:** Python (Pandas/NumPy), PostgreSQL (Recursive CTE).
 * **Ключевая особенность:** Сравнение двух подходов к обходу иерархических структур — рекурсивные запросы в БД против итеративной обработки в памяти через Pandas.
 
@@ -47,7 +47,6 @@
 * **Spark Internals:** Управление памятью, борьба со Spill и OOM, оптимизация джойнов, понимание планов выполнения (Physical/Logical plans).
 * **Database Theory:** Уровни изоляции ACID, CAP-теорема, нормализация vs денормализация, стратегии шардирования и партиционирования.
 * **Системы обмена сообщениями:** Гарантии доставки в Kafka, работа с Dead Letter Queues, Schema Registry.
-* **Data Governance:** Внедрение RBAC, контроль качества данных (Great Expectations/dbt tests) и обеспечение Usability данных.
 
 ---
 
